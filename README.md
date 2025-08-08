@@ -2,3 +2,7 @@
 This is the Github repo for the paper "Modeling high and low extremes with a novel dynamic spatio-temporal model" by Myungsoo Yoo, Likun Zhang, Christopher K. Wikle, and Thomas Opitz. The preprint is available on arXiv: https://arxiv.org/abs/2508.01481.
 
 In this work, we propose a physically motivated spatio-temporal dynamic model in which the innovations switch between heavy- and light-tailed distributions according to a probability, capturing external drivers of extreme events. The framework accounts for spatial and temporal dependence without assuming temporal independence and allows flexible extremal dependence across space and time. It also provides a fully model-based approach for detecting extreme events with uncertainty quantification. We illustrate the model using hourly PM2.5 data over the Central U.S. in March 2024.
+
+# real data
+
+# simulation
