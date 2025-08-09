@@ -17,7 +17,10 @@ In this work, we propose a physically motivated spatio-temporal dynamic model in
 ## detection
 ### data
 - wind_speed_subset.RData: This data contains wind speed measurement used in Section 6.2. The original data are from the ERA5 database (Hersbach et al., 2023), ranging from 12 October 15:00 to 14 October 16:00,2023, near Australia.
+- basis_100.RData: This dataset contains the local basis functions used for wind speed dataset. 
 ### code
+- windstorm_stable.R: This is the code to fit the "stable" model described in Section 6.2. 
+- windstorm_vg.R: This is the code to fit the "variance-gamma" model described in Section 6.2. 
 
 
 # Reference
