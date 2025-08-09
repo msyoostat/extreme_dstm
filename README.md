@@ -5,8 +5,8 @@ In this work, we propose a physically motivated spatio-temporal dynamic model in
 
 # real_data
 ## data
-- pm2_5_hour_5.RData: This dataset contains PM2.5 measurements used in Section 7, focusing on Arkansas, Oklahoma, and southwestern Missouri from March 19 at 00:30 to March 30 at 23:30. The original data are from NASA’s GEOS-CF v1.0 system (Keller et al., 2021).
-- hourly3_basis_170_4_2_crs.RData: This dataset contains the local basis functions used for PM2.5 dataset. 
+- pm2_5_hour_5.RData: This contains PM2.5 measurements used in Section 7, focusing on Arkansas, Oklahoma, and southwestern Missouri from March 19 at 00:30 to March 30 at 23:30. The original data are from NASA’s GEOS-CF v1.0 system (Keller et al., 2021).
+- hourly3_basis_170_4_2_crs.RData: This contains the local basis functions used for PM2.5 dataset. 
 ## code
 - pm_2_5_full_stable.R: This is the code to fit the "stable" model described in Section 7.1.
 - pm_2_5_full_vg.R: This is the code to fit the "variance-gamma" model described in Section 7.1.
@@ -16,11 +16,18 @@ In this work, we propose a physically motivated spatio-temporal dynamic model in
 # simulation
 ## detection
 ### data
-- wind_speed_subset.RData: This data contains wind speed measurement used in Section 6.2. The original data are from the ERA5 database (Hersbach et al., 2023), ranging from 12 October 15:00 to 14 October 16:00,2023, near Australia.
-- basis_100.RData: This dataset contains the local basis functions used for wind speed dataset. 
+- wind_speed_subset.RData: This contains wind speed measurement used in Section 6.2. The original data are from the ERA5 database (Hersbach et al., 2023), ranging from 12 October 15:00 to 14 October 16:00,2023, near Australia.
+- basis_100.RData: This contains the local basis functions used for wind speed dataset. 
 ### code
 - windstorm_stable.R: This is the code to fit the "stable" model described in Section 6.2. 
-- windstorm_vg.R: This is the code to fit the "variance-gamma" model described in Section 6.2. 
+- windstorm_vg.R: This is the code to fit the "variance-gamma" model described in Section 6.2.
+## para_esti
+### data
+- variance_gamma_3_data.RData: This contains data used in Section 6.1. This is for the variance-gamma case.
+- stable_data.RData: This contains data used in Section 6.1. This is for the stable case.
+### code
+- variance_gamma_para_0_05.R: This is the code to fit the "variance-gamma" model with nuisance parameter 0.05 described in Section 6.1.
+- stable_para_0_5.R: This is the code to fit the "stable" model with nuisance parameter 0.5 described in Section 6.1.
 
 
 # Reference
