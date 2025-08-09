@@ -8,9 +8,9 @@ In this work, we propose a physically motivated spatio-temporal dynamic model in
 - pm2_5_hour_5.RData: This dataset contains PM2.5 measurements used in the paper, focusing on Arkansas, Oklahoma, and southwestern Missouri from March 19 at 00:30 to March 30 at 23:30. The original data are from NASA’s GEOS-CF v1.0 system (Keller et al., 2021).
 - hourly3_basis_170_4_2_crs.RData: This dataset contains the local basis functions used for PM2.5 dataset. 
 ## code
-- pm_2_5_full_stable.R: 
-- pm_2_5_full_vg.R: 
-- pm_2_5_missing_stable.R: 
+- pm_2_5_full_stable.R: This is the code to fit the "stable" model described in Section 7.1.
+- pm_2_5_full_vg.R: This is the code to fit the "variance-gamma" model described in Section 7.1.
+- pm_2_5_missing_stable.R: This is the code to fit the "stable" model described in Section 7.2.
 
 
 # simulation
