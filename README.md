@@ -5,9 +5,11 @@ In this work, we propose a physically motivated spatio-temporal dynamic model in
 
 # real_data
 ## data
-- First item
-- Second item
-  - Sub item
-- Third item
+- hourly3_basis_170_4_2_crs.RData: This dataset contains PM2.5 measurements used in the paper, focusing on Arkansas, Oklahoma, and southwestern Missouri from March 19 at 00:30 to March 30 at 23:30. The original data are from NASA’s GEOS-CF v1.0 system (Keller et al., 2021).
 
+NASA’s GEOS-CF v1.0 system
 # simulation
+
+# Reference
+
+C. A. Keller, K. E. Knowland, B. N. Duncan, J. Liu, D. C. Anderson, S. Das, R. A. Lucchesi, E. W. Lundgren, J. M. Nicely, E. Nielsen, L. E. Ott, E. Saunders, S. A. Strode, P. A. Wales, D. J. Jacob, and S. Pawson. Description of the nasa geos composition forecast modeling system geos-cf v1.0. *Journal of Advances in Modeling Earth Systems*, 13(4): e2020MS002413, 2021. doi: https://doi.org/10.1029/2020MS002413
