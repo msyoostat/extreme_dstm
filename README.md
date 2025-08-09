@@ -17,4 +17,4 @@ In this work, we propose a physically motivated spatio-temporal dynamic model in
 
 # Reference
 
-C. A. Keller, K. E. Knowland, B. N. Duncan, J. Liu, D. C. Anderson, S. Das, R. A. Lucchesi, E. W. Lundgren, J. M. Nicely, E. Nielsen, L. E. Ott, E. Saunders, S. A. Strode, P. A. Wales, D. J. Jacob, and S. Pawson. Description of the nasa geos composition forecast modeling system geos-cf v1.0. *Journal of Advances in Modeling Earth Systems*, 13(4): e2020MS002413, 2021. doi: https://doi.org/10.1029/2020MS002413
+Keller, C. A., Knowland, K. E., Duncan, B. N., Liu, J., Anderson, D. C., Das, S., Lucchesi, R. A., Lundgren, E. W., Nicely, J. M., Nielsen, E., Ott, L. E., Saunders, E., Strode, S. A., Wales, P. A., Jacob, D. J., & Pawson, S. (2021). Description of the NASA GEOS Composition Forecast Modeling System GEOS-CF v1.0. Journal of Advances in Modeling Earth Systems, 13(4), e2020MS002413. https://doi.org/10.1029/2020MS002413
